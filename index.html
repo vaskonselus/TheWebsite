@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Landing Page</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Logo</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <h1>Hi, I'm &lt;Your Name&gt;</h1>
+        <p id="dotnet">&lt;Your Main Stack&gt;</p>
+
+        <p>I've <span id="professional-experience"></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatum maiores, ipsa nesciunt illo sint facilis?</p>
+
+        <a class="btn" href="#contact">Hire Me</a>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img alt="vasconcelos" src="Assets/about.png">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3></h3>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quas incidunt, odit voluptatem molestias
+                tempora consectetur laudantium omnis debitis repudiandae esse eius dignissimos veniam sed laborum nisi
+                nesciunt. Quaerat quam provident assumenda voluptatibus nostrum dolorum, perspiciatis rerum nisi
+                molestias hic quod ut blanditiis tenetur. Eum nostrum atque ea vero consequatur. Similique aliquam esse
+                reprehenderit, officia architecto neque? Molestias expedita, delectus ratione repellat aperiam enim
+                repellendus rem!</p>
+
+            <a class="btn" href="#experience">See More</a>
+        </div>
+
+        <div id="feedbacks"></div>
+    </section>
+
+    <section class="experience" id="experience">
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <section>
+            <h3>Senior Developer</h3>
+
+            <p class="time-experience">Month, Year - Present <span id="senior"></span></p>
+
+            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, soluta tempora,
+                cumque odio consequatur laborum molestiae, quod adipisci voluptas quos vitae.</p>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deleniti dicta
+                quisquam impedit totam nostrum?</p>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, eum. Tenetur eaque
+                fugit quos iste?</p>
+
+            <ul class="tags">
+                <li>Jenkins</li>
+                <li>LINQ</li>
+                <li>Microsoft Azure</li>
+                <li>Python</li>
+                <li>SOLID</li>
+                <li>WebAssembly</li>
+                <li class="more-skills"><a href="#midlevel">+ Mid-level Developer Skills</a></li>
+            </ul>
+        </section>
+
+        <section id="midlevel">
+            <h3>Mid-level Developer</h3>
+
+            <p class="time-experience">Month, Year - Month, Year (0 years and 0 months)</p>
+
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deleniti dicta
+                quisquam impedit totam nostrum?</p>
+            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, soluta tempora,
+                cumque odio consequatur laborum molestiae, quod adipisci voluptas quos vitae.</p>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, eum. Tenetur eaque
+                fugit quos iste?</p>
+
+            <ul class="tags">
+                <li>Docker</li>
+                <li>Microsoft SQL Server</li>
+                <li>MongoDB</li>
+                <li>MVC</li>
+                <li>MySQL</li>
+                <li>PL/SQL</li>
+                <li>RegEx</li>
+                <li>WebPI</li>
+                <li>XML</li>
+                <li class="more-skills"><a href="#junior">+ Junior Developer Skills</a></li>
+            </ul>
+        </section>
+
+        <section id="junior">
+            <h3>Junior Developer</h3>
+
+            <p class="time-experience">Month, Year - Month, Year (0 years and 0 months)</p>
+
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deleniti dicta
+                quisquam impedit totam nostrum?</p>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, eum. Tenetur eaque
+                fugit quos iste?</p>
+            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, soluta tempora,
+                cumque odio consequatur laborum molestiae, quod adipisci voluptas quos vitae.</p>
+
+            <ul class="tags">
+                <li>Angular</li>
+                <li>ASP.NET</li>
+                <li>Bootstrap</li>
+                <li>C#</li>
+                <li>CSS</li>
+                <li>Git</li>
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>JSON</li>
+                <li>RESTful API</li>
+            </ul>
+        </section>
+
+        <a class="btn" href="#contact">Hire</a>
+        <div>
+            <a href="#" target="_blank">Download</a>
+
+            <p class="waring">* Os cargos descritos nesta seção, são termos
+                genéricos usado pelo mercado, equivalentes aos que ocupei
+                durante minha carreira profissional. Baixe o curriculo para
+                visualizar as funções exercidas com mais detalhes.</p>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Let's <span>Talk</span></h2>
+
+        <form action="#" autocomplete="on">
+            <div class="input-box">
+                <input placeholder="Full Name" required type="text">
+                <input placeholder="Your Company" required type="text">
+            </div>
+            <div class="input-box">
+                <input placeholder="Email Address" required type="email">
+                <input placeholder="Subject" required type="text">
+            </div>
+            <textarea cols="30" placeholder="Your Proposal" required rows="10"></textarea>
+            <input class="btn" type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <a href="https://github.com/vaskonselus" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="https://linkedin.com/in/vaskonselus" target="_blank"><i class='bx bxl-linkedin'></i></a>
+
+        <p id="address"></p>
+        <p id="copyright"></p>
+
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </footer>
+
+    <script src="Scripts/date.js"></script>
+    <script src="Scripts/form.js"></script>
+    <script src="Scripts/script.js"></script>
+</body>
+
+</html>
