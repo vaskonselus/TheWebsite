@@ -17,10 +17,7 @@ A ideia é que a página seja a mais dinâmica possível e todos os dados a sere
 
 </br>
 
-Em **Home**, descreva sobre seu tempo profissional, certificações e principais tecnologias que domina;
-
-Em **About**, faça uma breve descrição sobre si, suas habilidades comportamentais e, se possível, adicione _feedbacks_ de colegas que trabalham ou trabalharam com você;
-
-Em **Experience**, conte sobre as tecnologias utilizadas por em cada nível de senioridade já trabalhado, como, também, em projetos pessoais disponibilizados no GitHub.
-
-Em **Contact**, está o formulário para contratantes interessados em seus serviços preencherem com propostas e canais para contato.
+- [] Em **Home**, descreva sobre seu tempo profissional, certificações e principais tecnologias que domina;
+- [] Em **About**, faça uma breve descrição sobre si, suas habilidades comportamentais e, se possível, adicione _feedbacks_ de colegas que trabalham ou trabalharam com você;
+- [] Em **Experience**, conte sobre as tecnologias utilizadas por em cada nível de senioridade já trabalhado, como, também, em projetos pessoais disponibilizados no GitHub;
+- [] Em **Contact**, está o formulário para contratantes interessados em seus serviços preencherem com propostas e canais para contato.
